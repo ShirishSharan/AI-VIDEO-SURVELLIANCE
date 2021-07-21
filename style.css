@@ -1,0 +1,55 @@
+body{
+background-size:cover;
+background-position: center;
+}
+
+#start,#no_of_objects,#status_detected{
+    border-radius: 20px;
+    border:ridge white;
+    box-shadow: 5px 5px 5px white;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.heading{
+    font-size:23px;
+    width:100%;
+    margin:0px;
+    border-radius: 20px;
+    border-color: white;
+
+}
+
+
+
+.copy_right_footer{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    line-height: 2;
+    background-color: blueviolet;
+    box-shadow: 15px 15px 15px yellow;
+    border: orange;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: yellow;
+}
+
+canvas{
+    margin-top:150px;
+    margin-left:5px;
+    
+    animation-name: ex1;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    border-radius: 100px;
+
+
+
+}
+@keyframes ex1 {
+    from {box-shadow: 5px 5px 5px yellow;}
+    to {box-shadow: 5px 5px 5px red;}
+}
